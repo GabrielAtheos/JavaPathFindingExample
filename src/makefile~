@@ -1,0 +1,12 @@
+# Linux or Mac OSX makefile for Comp 282 simulation framework distribution.
+# EmptySimFrameDemo
+# Mike Barnes 9/4/2015
+
+FRAMEWORK=/home/gabriel/Documents/CSUN/cs282/projects/Sturtevant282P2
+
+all:	
+	rm -rf *.class 
+	javac -cp ${FRAMEWORK}:${CLASSPATH} Player.java
+	javac -cp ${FRAMEWORK}:${CLASSPATH} WayPoint.java
+	javac -cp ${FRAMEWORK}:${CLASSPATH} Map.java
+	javac -cp ${FRAMEWORK}:${CLASSPATH} Sturtevant282P1.java

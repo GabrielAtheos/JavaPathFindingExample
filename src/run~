@@ -1,0 +1,2 @@
+# script to run EmptySimFrame
+java -cp /home/gabriel/Documents/CSUN/cs282/projects/SimulationFrameworkV4:$CLASSPATH Sturtevant282P1
